@@ -1,39 +1,72 @@
-# Word Play Greek Mod
+# 🇬🇷 Word Play - Greek Mod
 
-This repository contains a custom Greek dictionary and letter bag for the game [Word Play](https://store.steampowered.com/app/3586660/Word_Play/) by Game Maker's Toolkit.
+Elevate your **Word Play** experience with this comprehensive Greek language expansion! This mod brings the rich vocabulary and unique balance of the Greek alphabet to Game Maker's Toolkit's word-puzzler.
 
-## Contents
+![GitHub last commit](https://img.shields.io/github/last-commit/Xarishark/word-play-greek-mod?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/Xarishark/word-play-greek-mod?style=flat-square)
 
-- `customdictionary.txt`: A list of 452,157 unique Greek words in uppercase, cleaned of accents.
-- `customletterbag.txt`: Custom letter distribution and scoring based on Greek Scrabble values.
+---
 
-## Installation
+## 🚀 Quick Start
 
-To play Word Play in Greek:
+To play **Word Play** in Greek, follow these simple steps:
 
-1.  Locate your save folder:
-    - **Windows**: `%LOCALAPPDATA%Low\Game Maker's Toolkit\Word Play`
-2.  Download `customdictionary.txt` and `customletterbag.txt` from this repository.
-3.  Place both files into the save folder.
-4.  Launch the game. You should see "Custom Dictionary" in the bottom-left corner of the main menu.
+1.  **Locate Save Folder**: Navigate to your game's save location:
+    - 📂 `C:\Users\%USERNAME%\AppData\LocalLow\Game Maker's Toolkit\Word Play`
+2.  **Install Files**: Download and place [customdictionary.txt](https://raw.githubusercontent.com/Xarishark/word-play-greek-mod/main/customdictionary.txt) and [customletterbag.txt](https://raw.githubusercontent.com/Xarishark/word-play-greek-mod/main/customletterbag.txt) into the folder.
+3.  **Launch & Play**: Open the game. Look for the ✨ **"Custom Dictionary"** tag in the bottom-left corner of the main menu.
 
-## Adding Your Own Dictionaries
+---
 
-This mod is designed to be extensible! If you have additional Greek word lists, you can easily include them:
+## 📊 Greek Letter Bag (Scrabble Balanced)
 
-1.  Place your word list as a `.txt` file in the `dicts/` folder.
-2.  Run the processing script: `python process_words.py`.
-3.  The script will automatically scan all `.txt` files in `dicts/`, clean them, and merge them into a single `customdictionary.txt`.
-4.  Copy the new `customdictionary.txt` to your game folder.
+The letter distribution and point values are meticulously balanced based on official Greek Scrabble rules to ensure a fair and strategic game.
 
-## Mod Details
+| Letter | Points | Count | Name |
+| :---: | :---: | :---: | :--- |
+| **Α** | 1 | 12 | Alpha |
+| **Ο** | 1 | 9 | Omicron |
+| **Ε** | 1 | 8 | Epsilon |
+| **Ι** | 1 | 8 | Iota |
+| **Τ** | 1 | 8 | Tau |
+| **Η** | 1 | 7 | Eta |
+| **Σ** | 1 | 7 | Sigma |
+| **Ν** | 1 | 6 | Nu |
+| **Ρ** | 2 | 5 | Rho |
+| **Κ** | 2 | 4 | Kappa |
+| **Π** | 2 | 4 | Pi |
+| **Υ** | 2 | 4 | Upsilon |
+| **Λ** | 3 | 3 | Lambda |
+| **Μ** | 3 | 3 | Mu |
+| **Ω** | 3 | 3 | Omega |
+| **Γ** | 4 | 2 | Gamma |
+| **Δ** | 4 | 2 | Delta |
+| **Β** | 8 | 1 | Beta |
+| **Φ** | 8 | 1 | Phi |
+| **Χ** | 8 | 1 | Chi |
+| **Ζ** | 10 | 1 | Zeta |
+| **Θ** | 10 | 1 | Theta |
+| **Ξ** | 10 | 1 | Xi |
+| **Ψ** | 10 | 1 | Psi |
+| ✨ | 0 | 2 | Blank (Wildcard) |
 
-- **Dictionary**: Processed to handle Greek character normalization (e.g., converting 'ς' to 'Σ', removing all accents/tonos).
-- **Letter Bag**:
-    - Includes 104 tiles (including 2 blanks, not yet supported by the game but accounted for in distribution).
-    - Point values and counts follow official Greek Scrabble rules.
+---
 
-## Credits
+## 🛠️ Extensibility & Customization
 
-- Game by [Game Maker's Toolkit](https://www.gamemakerstoolkit.com/).
-- Greek word lists sourced from [iam1980/greeklish-wordlist](https://github.com/iam1980/greeklish-wordlist) and [huertatipografica/greekguide](https://github.com/huertatipografica/greekguide).
+This mod is designed to grow! If you want to add your own dictionaries or specialized word lists:
+
+1.  **Add your words**: Drop any `.txt` file into the `dicts/` folder.
+2.  **Process**: Run the script: `python process_words.py`.
+3.  **Merge**: The script automatically cleans (removes accents, converts casing, normalizes Sigmas) and merges all lists into a single `customdictionary.txt`.
+
+---
+
+## 📜 Credits & Sources
+
+- **Game**: [Word Play](https://store.steampowered.com/app/3586660/Word_Play/) by Game Maker's Toolkit.
+- **Word Lists**: 
+  - [iam1980/greeklish-wordlist](https://github.com/iam1980/greeklish-wordlist)
+  - [huertatipografica/greekguide](https://github.com/huertatipografica/greekguide)
+
+Developed with ❤️ for the Word Play community.
