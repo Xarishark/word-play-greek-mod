@@ -52,12 +52,37 @@ The letter distribution and point values are meticulously balanced based on offi
 
 ---
 
-## 🛠️ Extensibility & Customization
+### 🛠️ Extensibility & Customization
 
 This mod is designed to grow! If you want to add your own dictionaries or specialized word lists:
 
 1.  **Add your words**: Drop any `.txt` file into the `dicts/` folder.
-2.  **Process**: Run the script: `python process_words.py`.
+2.  **Process**: Run the word processor to merge your new words.
+
+> [!IMPORTANT]
+> **Python 3 is required** to run the processing script on all platforms. Ensure it is installed and added to your PATH.
+
+#### 🪟 Windows
+Double-click `process_words.bat` to run the processor automatically.
+
+#### 🍎 macOS
+Open your terminal in the project folder and run:
+```bash
+sh process_words.sh
+```
+
+#### 🐧 Linux
+Open your terminal in the project folder and run:
+```bash
+sh process_words.sh
+```
+
+#### 🐍 Advanced (Direct Python)
+If you prefer running the script directly:
+```bash
+python process_words.py
+```
+
 3.  **Merge**: The script automatically cleans (removes accents, converts casing, normalizes Sigmas) and merges all lists into a single `customdictionary.txt`.
 
 ---
