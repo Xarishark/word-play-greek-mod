@@ -4,7 +4,7 @@ This repository contains a custom Greek dictionary and letter bag for the game [
 
 ## Contents
 
-- `customdictionary.txt`: A list of 314,000+ Greek words in uppercase, cleaned of accents.
+- `customdictionary.txt`: A list of 452,157 unique Greek words in uppercase, cleaned of accents.
 - `customletterbag.txt`: Custom letter distribution and scoring based on Greek Scrabble values.
 
 ## Installation
@@ -27,4 +27,4 @@ To play Word Play in Greek:
 ## Credits
 
 - Game by [Game Maker's Toolkit](https://www.gamemakerstoolkit.com/).
-- Greek word list sourced from [iam1980/greeklish-wordlist](https://github.com/iam1980/greeklish-wordlist).
+- Greek word lists sourced from [iam1980/greeklish-wordlist](https://github.com/iam1980/greeklish-wordlist) and [huertatipografica/greekguide](https://github.com/huertatipografica/greekguide).
