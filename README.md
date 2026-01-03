@@ -17,6 +17,15 @@ To play Word Play in Greek:
 3.  Place both files into the save folder.
 4.  Launch the game. You should see "Custom Dictionary" in the bottom-left corner of the main menu.
 
+## Adding Your Own Dictionaries
+
+This mod is designed to be extensible! If you have additional Greek word lists, you can easily include them:
+
+1.  Place your word list as a `.txt` file in the `dicts/` folder.
+2.  Run the processing script: `python process_words.py`.
+3.  The script will automatically scan all `.txt` files in `dicts/`, clean them, and merge them into a single `customdictionary.txt`.
+4.  Copy the new `customdictionary.txt` to your game folder.
+
 ## Mod Details
 
 - **Dictionary**: Processed to handle Greek character normalization (e.g., converting 'ς' to 'Σ', removing all accents/tonos).

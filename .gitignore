@@ -1,2 +1,4 @@
-*.py
-raw_words*.txt
+dicts/
+customdictionary.txt
+customletterbag.txt
+__pycache__/
