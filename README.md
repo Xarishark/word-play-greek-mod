@@ -11,8 +11,10 @@ Elevate your **Word Play** experience with this comprehensive Greek language exp
 
 To play **Word Play** in Greek, follow these simple steps:
 
-1.  **Locate Save Folder**: Navigate to your game's save location:
-    - 📂 `C:\Users\%USERNAME%\AppData\LocalLow\Game Maker's Toolkit\Word Play`
+1.  **Locate Save Folder**: Navigate to your game's save location based on your OS:
+    - 🪟 **Windows**: `C:\Users\%USERNAME%\AppData\LocalLow\Game Maker's Toolkit\Word Play`
+    - 🍎 **macOS**: `~/Library/Application Support/Game Maker's Toolkit/Word Play`
+    - 🐧 **Linux (Proton)**: `~/.steam/steam/steamapps/compatdata/3586660/pfx/drive_c/users/steamuser/AppData/LocalLow/Game Maker's Toolkit/Word Play`
 2.  **Install Files**: Download and place [customdictionary.txt](https://raw.githubusercontent.com/Xarishark/word-play-greek-mod/main/customdictionary.txt) and [customletterbag.txt](https://raw.githubusercontent.com/Xarishark/word-play-greek-mod/main/customletterbag.txt) into the folder.
 3.  **Launch & Play**: Open the game. Look for the ✨ **"Custom Dictionary"** tag in the bottom-left corner of the main menu.
 
