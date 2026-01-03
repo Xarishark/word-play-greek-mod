@@ -1,4 +1,3 @@
-dicts/
+__pycache__/
 customdictionary.txt
 customletterbag.txt
-__pycache__/
